@@ -4,7 +4,7 @@ export default function mergeSort(array) {
   if (array.length < 2) {
     return array;
   }
-  /* The merge sort algorithm involves finding the halfway point then sorting the left 
+  /* The merge sort algorithm involves finding the halfway point and sorting the left 
   half of the array, then sorting the right half of the array. This is done recursively */
   const half = Math.ceil(array.length / 2);
 
